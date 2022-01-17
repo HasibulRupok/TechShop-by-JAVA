@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #062A38;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SaleConfirm2Controller">
+   <children>
+      <AnchorPane layoutX="218.0" layoutY="17.0" prefHeight="391.0" prefWidth="490.0">
+         <children>
+            <Button layoutX="250.0" layoutY="329.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="75.0" style="-fx-background-color: #062A38; -fx-border-color: red; -fx-border-radius: 5px;" text="Cancle" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <TextField layoutX="155.0" layoutY="280.0" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0 0 1px 0;" />
+            <Text fill="#f5f5f5" layoutX="43.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="172.0" fitWidth="198.0" layoutX="137.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/laptop.PNG" />
+               </image>
+            </ImageView>
+            <Text fill="#f5f5f5" layoutX="43.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Macbook M1">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#f5f5f5" layoutX="43.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="512 GB">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <TextField layoutX="110.0" layoutY="255.0" prefHeight="25.0" prefWidth="47.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0 0 1px 0;" />
+            <Text fill="#f5f5f5" layoutX="45.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Comments:" wrappingWidth="110.04367247223854">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <Button layoutX="166.0" layoutY="329.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="75.0" style="-fx-background-color: #062A38; -fx-border-color: white; -fx-border-radius: 5px;" text="Sale" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <VBox layoutX="-1.0" layoutY="3.0" prefHeight="400.0" prefWidth="151.0" style="-fx-background-color: #001f2b;">
+         <children>
+            <AnchorPane prefHeight="406.0" prefWidth="151.0">
+               <children>
+                  <JFXButton layoutX="-1.0" layoutY="275.0" prefHeight="37.0" prefWidth="167.0" ripplerFill="WHITE" style="-fx-background-color: #062A38;" text="Chat" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </JFXButton>
+                  <ImageView fitHeight="135.0" fitWidth="176.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/logo2.PNG" />
+                     </image>
+                  </ImageView>
+                  <JFXButton layoutX="-1.0" layoutY="195.0" prefHeight="37.0" prefWidth="167.0" ripplerFill="WHITE" style="-fx-background-color: #062A38;" text="Home" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="-1.0" layoutY="235.0" prefHeight="37.0" prefWidth="167.0" ripplerFill="WHITE" style="-fx-background-color: #062A38;" text="Back" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="-1.0" layoutY="315.0" prefHeight="37.0" prefWidth="167.0" ripplerFill="WHITE" style="-fx-background-color: #062A38;" text="Exit" textFill="#ff7070">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

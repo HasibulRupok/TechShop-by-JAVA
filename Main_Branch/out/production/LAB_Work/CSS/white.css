@@ -1,0 +1,27 @@
+.white-text
+{
+-fx-text-inner-color: white;
+}
+.jfx-text-field {
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20 20 20 20;
+    -fx-border-color: white;
+    -fx-text-inner-color: white;
+    -fx-prompt-text-fill: gray;
+    -fx-control-inner-background: #001f2b;
+}
+.jfx-button {
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20 20 20 20;
+    -fx-border-color: white;
+}
+.jfx-text-area {
+    -fx-border-width: 0.1px;
+    -fx-border-color: white;
+    -fx-control-inner-background: #001f2b;
+    -fx-prompt-text-fill: gray;
+    -fx-text-inner-color: white;
+}
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}

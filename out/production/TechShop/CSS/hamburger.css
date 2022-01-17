@@ -1,0 +1,12 @@
+.jfx-hamburger {
+	-fx-background-color: transparent;
+}
+
+.jfx-hamburger StackPane {
+	-fx-background-color: white;
+}
+.jfx-menuButton{
+     -fx-padding: 0 5px 0 5px;
+     -fx-border-insets: 0 5px 0 5px;
+     -fx-background-insets: 0 5px 0 5px;
+}

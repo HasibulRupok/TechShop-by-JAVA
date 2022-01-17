@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #37474F;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.productDetailsController">
+   <children>
+      <Label layoutX="211.0" layoutY="21.0" text="PRODUCT DETAILS" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="238.0" text="MACBOOK" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="90.0" text="IPHONE" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="132.0" text="All four models of the iPhone 12 (iPhone 12 Mini, iPhone 12, iPhone 12 Pro and iPhone 12 Max) have the same" textFill="WHITE" />
+      <Label layoutY="155.0" text="ceramic shield on the screen and the same type of glass on the back. The only difference in materials is the frame." textFill="WHITE" />
+      <Label layoutX="5.0" layoutY="183.0" text="The two Pros have a stainless steel frame, while the Mini and the 12 are aluminum." textFill="WHITE" />
+   </children>
+</AnchorPane>

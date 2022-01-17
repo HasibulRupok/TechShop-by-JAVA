@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #37474F;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.AboutUsController">
+   <children>
+      <Label layoutX="239.0" layoutY="48.0" text="ABOUT  US" textFill="#f20404">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Text layoutX="116.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Leading Computer, Laptop &amp; Gaming PC Retail &amp; Online Shop in Bangladesh">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="116.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Best Laptop &amp; Notebook Shop in Bangladesh">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="116.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Best Desktop PC Shop in Bangladesh">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="116.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Best PC component &amp; accessories Shop in Bangladesh">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="116.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Best Gaming Shop in Bangladesh">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="116.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Best Office Equipment shop in Bangladesh">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="116.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Best PC component &amp; accessories Shop in Bangladesh">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Text>
+      <Button fx:id="backBtn" layoutX="14.0" layoutY="159.0" mnemonicParsing="false" onAction="#backPressed5" prefHeight="27.0" prefWidth="58.0" text="BACK">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="homeBtn" layoutX="14.0" layoutY="196.0" mnemonicParsing="false" onAction="#homePressed5" text="HOME">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
